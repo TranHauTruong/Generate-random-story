@@ -2,23 +2,23 @@ const customname = document.querySelector('#customname')
 const randomize = document.querySelector('.randomize')
 const story = document.querySelector('.storyMessage')
 
-let numberAll = `Chẳng tìm đâu ra, một người như thế,
-:xText: cười xinh như hoa, 
+let numberAll = `:xText:,
+Môi cười xinh như hoa, 
 Đáng yêu, thật thà.
 Cứ êm đềm thương nhau qua bao nắng mưa.
 
 Một đời nâng niu, một đời đưa đón,
 Khi bình minh ôm em ngủ say trong lòng.
-Đến khi già nua vẫn :yText: em thôi.
+Đến khi già nua :yText:.
  :Tacgia:`;
 
 let xText = [
-    'em',
-    'Trân',
+    'thấy anh pro khum',
+    'làm muốn ẻ luôn đó bae',
 ];
 let yText = [
-    'hôn mỗi',
-    'bên mỗi',
+    'anh chở em đi đà lạt',
+    'anh cũng sẽ yêu mỗi em thâu',
 ];
 function randomValueFromArray(array) {
     const random = Math.floor(Math.random() * array.length);
